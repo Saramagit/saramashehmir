@@ -29,8 +29,8 @@
   }
 
   .photo-placeholder {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     border: 2px dashed var(--line);
     display: flex;
@@ -57,9 +57,12 @@
     text-align: center;
   }
   .photo-placeholder img {
-    position: absolute; inset: 0;
-    width: 100%; height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    object-position: center top;
     border-radius: 50%;
   }
   #photo-input { display: none; }
@@ -434,8 +437,7 @@
     <p class="hero-title">PhD Candidate, Electrical &amp; Computer Engineering (Machine Learning &amp; Generative AI)</p>
     <div class="hero-affiliation">
       <strong>Toronto Metropolitan University</strong>
-      Dept. of Electrical &amp; Computer Engineering<br>
-      Expected Completion: December 2027
+      Dept. of Electrical &amp; Computer Engineering
     </div>
   </div>
   <div class="hero-right">
@@ -472,7 +474,7 @@
         <div class="pub-authors">Sarama Shehmir — Toronto Metropolitan University</div>
         <div class="pub-venue">Research areas: Machine Learning · Generative AI · LLMOps · Data Analytics</div>
         <div class="pub-tags">
-          <span class="pub-tag featured"><a href="#" style="color:inherit;text-decoration:none;">Google Scholar ↗</a></span>
+          <span class="pub-tag featured"><a href="https://scholar.google.ca/citations?user=IKJC5usAAAAJ&hl=en" target="_blank" style="color:inherit;text-decoration:none;">Google Scholar ↗</a></span>
         </div>
       </div>
     </div>
@@ -592,7 +594,7 @@
       <div class="project-status ongoing">Ongoing · PhD Research</div>
       <div class="project-name">Machine Learning &amp; Generative AI</div>
       <p class="project-desc">Doctoral research at TMU exploring generative AI systems, LLM fine-tuning, and intelligent pipelines. Focus on scalable architectures that bridge research and real-world deployment.</p>
-      <div class="project-collab">Toronto Metropolitan University · Expected Dec 2027</div>
+      <div class="project-collab">Toronto Metropolitan University</div>
     </div>
     <div class="project-card">
       <div class="project-status ongoing">Ongoing · Teaching</div>
@@ -635,11 +637,11 @@
       </div>
       <div class="contact-row">
         <span class="contact-label">LinkedIn</span>
-        <span class="contact-value"><a href="#">LinkedIn Profile ↗</a></span>
+        <span class="contact-value"><a href="https://www.linkedin.com/in/saramakamal/" target="_blank">LinkedIn Profile ↗</a></span>
       </div>
       <div class="contact-row">
         <span class="contact-label">Google Scholar</span>
-        <span class="contact-value"><a href="#">Google Scholar Profile ↗</a></span>
+        <span class="contact-value"><a href="https://scholar.google.ca/citations?user=IKJC5usAAAAJ&hl=en" target="_blank">Google Scholar Profile ↗</a></span>
       </div>
     </div>
   </div>
